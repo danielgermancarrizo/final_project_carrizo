@@ -44,7 +44,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 DATABASES = {
     "default": env.db(
         "DATABASE_URL",
-        default="postgres://localhost/final_project_coder",
+        default="postgres://gtkvippl:A9oejHsWX-NOeqVagRXlkc_TQjMovj5y@rajje.db.elephantsql.com/gtkvippl",
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
